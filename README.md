@@ -1,5 +1,6 @@
-# friend_finder
+# Aliens Friend Finder
 
 Overview
+Aliens Friend Finder is a survey website that matches you up with your best match from the Aliens film.
 
-"Friend_Finder" is a compatability-based application similar to a dating app. This full-stack site will take in results from users' surveys, then compare their answers with those from other users.
+
