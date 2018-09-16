@@ -1,1 +1,20 @@
-
+{
+  "name": "friend_finder",
+  "version": "1.0.0",
+  "description": "friend finder app based on the film the fifth element",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "nadia green",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkgreen/friend_finder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nkgreen/friend_finder/issues"
+  },
+  "homepage": "https://github.com/nkgreen/friend_finder#readme"
+}
