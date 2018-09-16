@@ -3,55 +3,43 @@ var friends = [{
         "name": "Leeloo",
         "photo": "https://media.giphy.com/media/3o7buesX9LNTok38XK/giphy.gif",
         "scores": [],
-        "bio": "Me fifth element. Me save you."
+        "quote": "Me fifth element - supreme being. Me protect you."
     }, {
         "name": "Korben Dallas",
         "photo": "https://media.giphy.com/media/qUYVOUS7fxiG4/giphy.gif",
         "scores": [],
-        "bio": "I'm lovely but not the most lively"
+        "quote": "You wanna play it soft. We'll play it soft. You wanna play it hard. Let's play it hard."
     }, {
         "name": "Diva Plavalaguna",
         "photo": "https://media.giphy.com/media/SGL6zJNRn36CY/giphy.gif",
         "scores": [],
-        "bio": "Hope you like dancin' ooh la la."
+        "quote": "She needs your help...and your love."
     }, {
         "name": "Ruby Rhod",
         "photo": "https://media.giphy.com/media/l0EoBVexxvaP88SSQ/giphy.gif",
         "scores": [],
-        "bio": "I'm a great friend to have I've got all the pies. "
+        "quote": "I don't want one position, I want all the positions!"
     }, {
         "name": "Father Vito Cornelius",
-        "photo": "",
+        "photo": "https://media.giphy.com/media/Z6sM4WYln6ZCU/giphy.gif",
         "scores": [],
-        "bio": "I hope you're OK with feelings."
+        "quote": "We're not on a vacation, we're on a mission!"
     }, {
-        "name": "President Lindberg",
-        "photo": "https://media.giphy.com/media/lcCieNL026IO4/giphy.gif",
+        "name": "Aknot",
+        "photo": "https://media.giphy.com/media/dBo9WljmRe2n6/giphy.gif",
         "scores": [],
-        "bio": "I love solving a good murder, and a strong cup of coffee."
+        "quote": "We risked our lives! I believe a little compensation is in order."
     }, {
         "name": "Jean-Baptiste Emanuel Zorg",
         "photo": "https://media.giphy.com/media/gMdcE99lufTzy/giphy.gif",
         "scores": [,]
-        "bio": "I'm an utter douchelord."
+        "quote": "If you want something done, do it yourself. Yep!"
     }, {
-        "name": "Norma Jennings",
-        "photo": "https://media.giphy.com/media/26n60J5FeXvCIumOY/giphy.gif",
-        "scores": [3, 1, 5, 2, 2, 3, 5, 1, 5, 5],
-        "bio": "I can make you breakfast!"
-    }, {
-        "name": "Log Lady",
-        "photo": "https://media.giphy.com/media/B9bjlOhhqUEdW/giphy.gif",
-        "scores": [1, 1, 1, 5, 1, 5, 2, 3, 3, 1],
-        "bio": "Hope you like threesomes! "
-    }, {
-        "name": "General Munroe",
-        "photo": "https://media.giphy.com/media/l0Iya1K4b3wH2HTpK/giphy.gif",
+        "name": "Right Arm",
+        "photo": "https://media.giphy.com/media/yoGQem5NJGooM/giphy.gif",
         "scores": [],
-        "bio": "I have a feeling you are into some kinky stuff."
+        "quote": "You don't understand, I am Korben Dallas!"
     },
-
-    https://media.giphy.com/media/unpzgMqjF83XW/giphy.gif
 
 ];
 
