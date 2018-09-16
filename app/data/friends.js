@@ -2,42 +2,42 @@
 var friends = [{
         "name": "Leeloo",
         "photo": "https://media.giphy.com/media/3o7buesX9LNTok38XK/giphy.gif",
-        "scores": [],
+        "scores": [5, 2, 5, 1, 1, 1, 2, 5, 2, 2],
         "quote": "Me fifth element - supreme being. Me protect you."
     }, {
         "name": "Korben Dallas",
         "photo": "https://media.giphy.com/media/qUYVOUS7fxiG4/giphy.gif",
-        "scores": [],
+        "scores": [5, 3, 1, 5, 2, 3, 2, 5, 3, 2],
         "quote": "You wanna play it soft. We'll play it soft. You wanna play it hard. Let's play it hard."
     }, {
         "name": "Diva Plavalaguna",
         "photo": "https://media.giphy.com/media/SGL6zJNRn36CY/giphy.gif",
-        "scores": [],
+        "scores": [5, 3, 4, 2, 3, 1, 3, 5, 1, 3],
         "quote": "She needs your help...and your love."
     }, {
         "name": "Ruby Rhod",
         "photo": "https://media.giphy.com/media/l0EoBVexxvaP88SSQ/giphy.gif",
-        "scores": [],
+        "scores": [3, 1, 5, 1, 2, 2, 3, 4, 5, 5],
         "quote": "I don't want one position, I want all the positions!"
     }, {
         "name": "Father Vito Cornelius",
         "photo": "https://media.giphy.com/media/Z6sM4WYln6ZCU/giphy.gif",
-        "scores": [],
+        "scores": [5, 5, 4, 3, 3, 2, 2, 5, 4, 2],
         "quote": "We're not on a vacation, we're on a mission!"
     }, {
         "name": "Aknot",
         "photo": "https://media.giphy.com/media/dBo9WljmRe2n6/giphy.gif",
-        "scores": [],
+        "scores": [2, 4, 2, 4, 3, 3, 1, 2, 4, 2],
         "quote": "We risked our lives! I believe a little compensation is in order."
     }, {
         "name": "Jean-Baptiste Emanuel Zorg",
         "photo": "https://media.giphy.com/media/gMdcE99lufTzy/giphy.gif",
-        "scores": [,]
+        "scores": [1, 4,  2,  5, 2, 4, 2, 1, 5, 5]
         "quote": "If you want something done, do it yourself. Yep!"
     }, {
         "name": "Right Arm",
         "photo": "https://media.giphy.com/media/yoGQem5NJGooM/giphy.gif",
-        "scores": [],
+        "scores": [2, 4, 3, 4, 3, 3, 3, 2, 3, 4],
         "quote": "You don't understand, I am Korben Dallas!"
     },
 
