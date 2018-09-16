@@ -1,1 +1,278 @@
+<!DOCTYPE html>
+<html lang="en-US">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Friend finder app">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Nadia Green">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Fifth Element Friend Finder</title>
+    <style>
+body {
+    background-image: url("https://media.giphy.com/media/Xq3iUhw0f0fq8/giphy.gif")
+}
+
+h1 {
+    color: lightgray;
+    font-family: 'Times New Roman';
+}
+
+#submitBtn {
+    margin-bottom: 20px;
+}
+
+#friendPhoto {
+    width: auto;
+    height: auto;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="text-center">THE FIFTH ELEMENT FRIEND FINDER</h1>
+            <br>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><strong>Answer the questions to find your element! </strong></h3>
+                </div>
+                <div class="panel-body">
+                    <form method="POST" role="form">
+                        <div class="form-group">
+                            <label for="name">Enter your name:</label>
+                            <input type="text" class="form-control" id="name" class="textinput">
+                        </div>
+                        <div class="form-group">
+                            <label for="photo">Enter a url to your photo:</label>
+                            <input type="text" class="form-control" id="photo" class="textinput">
+                        </div>
+                        <div class="form-group">
+                            <label for="photo">Enter a brief description of yourself:</label>
+                            <input type="text" class="form-control" id="bio" class="textinput">
+                        </div>
+                        <div class="form-group">
+                            <label for="q1">1.) I World domination is at the center of my vision board.</label>
+                            <select id="q1">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Somewhat Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Somewhat Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="q2">2.) I an bend it like Beckham on and off the field!.</label>
+                            <select id="q2">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Somewhat Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Somewhat Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="q3">3.) I don't hate people, I just feel better when they're not around.</label>
+                            <select id="q3">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Somewhat Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Somewhat Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="q4">4.) I feel like a room without a roof!</label>
+                            <select id="q4">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Somewhat Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Somewhat Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="q5">5.) I am a foodie!</label>
+                            <select id="q5">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Somewhat Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Somewhat Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="q6">6.) I can find beauty in the ordinary and the extraordinary.</label>
+                            <select id="q6">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Somewhat Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Somewhat Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="q7">7.) I love to bring order to my environment.</label>
+                            <select id="q7">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Somewhat Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Somewhat Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="q8">8.) I have an appetite for destruction.</label>
+                            <select id="q8">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Somewhat Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Somewhat Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="q9">9.) I am calm as a cucumber.</label>
+                            <select id="q9">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Somewhat Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Somewhat Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="q10">10.) I am a natural leader.</label>
+                            <select id="q10">
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Somewhat Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Somewhat Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn-danger" id="submitBtn">SUBMIT ANSWERS</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="friendModal" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content" ">
+
+        
+        <div class="modal-body text-center ">
+        
+            
+            <h4 class="modal-title ">YOUR MATCH:</h4>
+
+        
+            <h5 id="friendName " class="text-center "></h5>
+            <img src=" " class="img-responive text-center " id="friendPhoto ">
+            <p id="friendBio " class="text-center "></p>
+        </div>
+        <div class="modal-footer ">
+            <button type="button " class="modal-action modal-close " data-dismiss="modal ">Close</button>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+</body>
+
+<script type="text/javascript ">
+
+// functionality starts when window loads
+window.onload = (function() {
+
+
+var formComplete;
+
+// submit button on click function
+$("#submitBtn ").on("click ", function (event) {
+// prevents default event
+event.preventDefault();
+
+// validation function runs (see below) to confirm user has filled out all information
+validation();
+
+// if page has been completely filled out, then new friend variable is created with information submitted in the appropiate divs
+if (formComplete === true) {
+var newFriend = {
+    name: $("#name ").val().trim(),
+    photo: $('#photo').val().trim(),
+    scores: [$('#q1').val(), $('#q2').val(), $('#q3').val(), $('#q4').val(), $('#q5').val(), $('#q6').val(), $('#q7').val(), $('#q8').val(), $('#q9').val(), $('#q10').val(),],
+    quote: $('#quote').val().trim()
+}
+
+// this user submitted information is console logged
+console.log(newFriend);
+
+// variable that takes currect html link
+var url = window.location.origin;
+
+
+// post function to friends API
+$.post(url+"/api/friends ", newFriend,
+    function(data) {
+        console.log('ok');
+        $('#friendName').text(data.name);
+        $('#friendPhoto').attr('src', data.photo);
+        $('#friendQuote').text(data.quote);
+        $('#friendModal').modal('open');
+
+    });
+}
+// User is alerted that all fileds must be completed
+else {
+    alert('Please complete all fields to ensure an accurate result.');
+}
+
+
+
+})
+
+
+
+// validation function to ensure a completed document is submitted
+function validation () {
+formComplete = true;
+
+    // each value of text input is checked for written content, if none, form completed variable is false
+    $('.textinput').each(function(){
+        if($(this).val() === " ") {
+                formComplete = false;
+        }
+
+    });
+
+    // each survey option is checked for a selected value, if incoplete value, form complete variable is not complete.
+    $('select').each(function() {
+        if($(this).val() === null) {
+            formComplete = false;
+        }
+    });
+}
+
+});
+
+</script>
+</html>
