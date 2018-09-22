@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "friend finder app based on the film the fifth element",
   "main": "index.js",
+    "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
